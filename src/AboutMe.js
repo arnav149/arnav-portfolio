@@ -72,7 +72,7 @@ const AboutMe = () => {
                 default: "bounce"
               },
               random: false,
-              speed: 6,
+              speed: 3,
               straight: false
             },
             number: {
@@ -96,18 +96,18 @@ const AboutMe = () => {
         }}
       />
       <div className="wrapper">
-      <div className="tilt-div">
-        <p> It's me... your friendly neighborhood Software Engineer </p>
-        <p>
-          Hey! This is Arnav, I'm a Software Engineer at Credit Karma who enjoys
-          building things.
-        </p>
-        <p>
-          Look at the work experience section to learn more about my role at
-          Credit Karma and my past experiences.
-        </p>
+        <div className="tilt-div">
+            <p> It's me... your friendly neighborhood Software Engineer </p>
+            <p>
+                Hey! This is Arnav, I'm a Software Engineer at Credit Karma who
+                enjoys building things.
+            </p>
+            <p>
+                Look at the work experience section to learn more about my role at
+                Credit Karma and my past work experience.
+            </p>
+        </div>
       </div>
-      </div> 
     </div>
   );
 };
