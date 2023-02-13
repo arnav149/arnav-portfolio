@@ -25,7 +25,7 @@ const AboutMe = () => {
         options={{
           background: {
             color: {
-              value: "#0d47a1"
+              value: "#507eb3"
             }
           },
           fpsLimit: 120,
@@ -58,7 +58,7 @@ const AboutMe = () => {
             links: {
               color: "#ffffff",
               distance: 150,
-              enable: true,
+              enable: false,
               opacity: 0.5,
               width: 1
             },
@@ -95,19 +95,17 @@ const AboutMe = () => {
           detectRetina: true
         }}
       />
-      <div className="wrapper">
         <div className="tilt-div">
-            <p> It's me... your friendly neighborhood Software Engineer </p>
+            <p> <b><i>It's me... your friendly neighborhood Software Engineer</i></b></p>
             <p>
                 Hey! This is Arnav, I'm a Software Engineer at Credit Karma who
                 enjoys building things.
             </p>
             <p>
-                Look at the work experience section to learn more about my role at
-                Credit Karma and my past work experience.
+                Click on the experience section to learn more about my role at
+                Credit Karma and about my past work experience.
             </p>
         </div>
-      </div>
     </div>
   );
 };
