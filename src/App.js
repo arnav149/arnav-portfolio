@@ -1,13 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import NavBar from './NavigationBar.js';
-import AboutMe from './AboutMe';
+import "./App.css";
+import NavBar from "./NavigationBar.js";
+import AboutMe from "./AboutMe";
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <AboutMe></AboutMe>
+      <div className="navbar">
+        <NavBar></NavBar>
+      </div>
+      <div className="about-me">
+        <AboutMe></AboutMe>
+      </div>
     </div>
   );
 }
