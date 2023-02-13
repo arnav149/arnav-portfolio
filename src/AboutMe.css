@@ -1,9 +1,21 @@
 .tilt-div {
-    width: 200px;
-    height: 200px;
-    background-color: lightblue;
+    width: 85%;
+    height: 85%;
+    background-color: darkgray;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 10%;
+}
+
+.wrapper {
+    width: 80%;
+    height: 70%;
+    background: linear-gradient(90deg, rgba(173,42,42,1) 0%, rgba(80,99,179,1) 0%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25%;
 }
